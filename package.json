@@ -1,0 +1,24 @@
+{
+  "name": "app-liumengqi",
+  "version": "1.0.0",
+  "description": "这是真的二期项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MengQi123/app-liumengqi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MengQi123/app-liumengqi/issues"
+  },
+  "homepage": "https://github.com/MengQi123/app-liumengqi#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
