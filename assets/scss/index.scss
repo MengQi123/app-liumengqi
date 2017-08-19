@@ -1,4 +1,846 @@
-body {
-    background-color: red;
-    font-size: 12px;
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header {
+    width: 1000px;
+    height: 78px;
+    margin: 0 259.6px;
+    margin: 0 auto;
+    .logo {
+        display: inline-block;
+        height: 78px;
+        float: left;
+        a {
+            display: inline-block;
+            img {
+                display: inline-block;
+                width: 153px;
+                height: 36.8px;
+                margin-top: 20px;
+            }
+        }
+    }
+    .search {
+        display: inline-block;
+        width: 300px;
+        height: 36px;
+        padding-top: 20px;
+        margin-left: 40px;
+        .search_input {
+            width: 298px;
+            height: 34px;
+            border: 1px solid #ccc;
+            line-height: 34px;
+            input {
+                width: 249px;
+                height: 24px;
+                line-height: 24px;
+                margin-left: 14px;
+                padding: 4px 0;
+                font-size: 13px;
+                border: none;
+                outline: none;
+            }
+        }
+        .search_btn {
+            float: right;
+            width: 34px;
+            height: 34px;
+            text-align: center;
+            .iconfont {
+                font-size: 18px;
+                color: #777;
+                &:hover {
+                    color: #0c8ed9;
+                }
+            }
+        }
+    }
+    .severs {
+        width: 402px;
+        height: 19px;
+        float: right;
+        margin-top: 30px;
+        line-height: 19px;
+        font-size: 13px;
+        .sever_center {
+            float: left;
+            a {
+                margin: 0 15px;
+                color: #777;
+                &:hover {
+                    color: #169af3;
+                }
+            }
+        }
+        .denglu {
+            float: right;
+            font-size: 14px;
+            margin-top: -5px;
+            a {
+                display: inline-block;
+                border: 0.8px solid #ddd;
+                border-radius: 3px;
+                width: 48px;
+                height: 28px;
+                font-size: 13px;
+                color: #fff;
+                line-height: 28px;
+                text-align: center;
+                background-color: #169af3;
+            }
+            .login {
+                &:hover {
+                    background-color: #0c8ed9;
+                }
+            }
+            .reg {
+                border: 0.8px solid #777;
+                background-color: #fff;
+                color: #666;
+                &:hover {
+                    border: 0.8px solid #0c8ed9;
+                    color: #0c8ed9;
+                }
+            }
+        }
+    }
+} //头部样式结束
+//导航样式开始
+.nav {
+    width: 100%;
+    height: 55px;
+    background-color: #2c323b;
+    .Nav {
+        width: 1000px;
+        margin: 0 auto;
+        .nav_left {
+            float: left;
+            line-height: 55px;
+            li {
+                float: left;
+                a {
+                    display: inline-block;
+                    font-size: 16px;
+                    color: #ddd;
+                    padding: 0 30px;
+                    margin: 0;
+                    &:hover {
+                        background-color: #0c8ed9;
+                    }
+                }
+                .first_page {
+                    background-color: #0c8ed9;
+                }
+            }
+        }
+        .nav_right {
+            width: 454.438px;
+            height: 55px;
+            float: right;
+            line-height: 55px;
+            li {
+                float: left;
+                margin-left: 28px;
+                a {
+                    font-size: 13px;
+                    color: #bbb;
+                    text-align: right;
+                    &:hover {
+                        color: #0c8ed9;
+                    }
+                }
+            }
+        }
+    }
+} //导航样式结束
+//轮播图样式开始
+.lunbotu {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    img {
+        width: 100%;
+        height: 500px;
+    }
+    .load {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 60px;
+        background-color: rgba(0, 0, 0, .3);
+        .load_list {
+            display: flex;
+            justify-content: space-around;
+            width: 745px;
+            height: 64px;
+            line-height: 64px;
+            margin: 0 auto;
+            a {
+                color: #fff;
+                img {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+        }
+    }
+} //轮播图样式结束
+//页面主体部分开始
+.main {
+    width: 100%;
+    min-height: 1000px;
+    .fenlei {
+        width: 1000px;
+        height: 390px;
+
+        margin: 0 auto;
+        margin-top: 40px;
+        .songlist {
+            width: 650px;
+            height: 390px;
+            float: left;
+            .listname {
+                width: 650px;
+                height: 30px;
+                padding-bottom: 30px;
+
+                p {
+                    display: inline-block;
+                    width: 120px;
+                    height: 30px;
+                    font-weight: bold;
+                    color: #555;
+                    font-size: 26px;
+                    span {
+                        color: #0c8ed9;
+                    }
+                }
+                a {
+                    display: inline-block;
+                    width: 26px;
+                    height: 19.2px;
+                    margin-top: 7px;
+                    font-size: 13px;
+                    color: #999;
+                    float: right;
+                }
+            }
+            .picture {
+                position: relative;
+                width: 660px;
+                height: 330px;
+
+                p {
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                }
+                .bigpicture {
+                    position: relative;
+                    float: left;
+                    width: 325px;
+                    height: 325px;
+                    font-size: 0px;
+                    &:hover .lmq {
+                        display: block;
+                    }
+                    img {
+                        width: 325px;
+                        height: 325px;
+                    }
+                    >p {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        width: 152px;
+                        height: 30px;
+                        background: url('../images/Bg.png');
+                        line-height: 30px;
+                        .iconfont {
+                            float: right;
+                            margin-right: 15px;
+                            color: #fff;
+                        }
+                    }
+                    .lmq {
+                        width: 325px;
+                        height: 325px;
+                        position: absolute;
+                        top: 0;
+                        background: rgba(0, 0, 0, .3);
+                        display: none;
+                        .iconfont {
+                            position: absolute;
+                            bottom: 10px;
+                            right: 15px;
+                            font-size: 30px;
+                            color: #cfcfcf;
+                            &:hover {
+                                color: #fff;
+                            }
+                        }
+                    }
+                    .text {
+                        width: 309px;
+                        height: 38px;
+                        padding: 6px 8px;
+                        background: rgba(0, 0, 0, .5);
+                        position: absolute;
+                        bottom: 0;
+                        z-index: 10px;
+                        p {
+                            width: 295px;
+                            height: 18.4px;
+                            font-size: 14px;
+                            line-height: 19px;
+                        }
+                        .style {
+                            color: #fff;
+                        }
+                        .name {
+                            color: #cfcfcf;
+                        }
+                    }
+                }
+                .midpicture {
+                    position: relative;
+                    width: 160px;
+                    height: 160px;
+                    float: left;
+                    margin-left: 5px;
+                    margin-bottom: 5px;
+                    &:hover .lmqq {
+                        display: block;
+                    }
+                    img {
+                        width: 160px;
+                        height: 160px;
+                    }
+                    >p {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        width: 152px;
+                        height: 30px;
+                        background: url('../images/Bg.png');
+                        line-height: 30px;
+                        .iconfont {
+                            float: right;
+                            margin-right: 15px;
+                            color: #fff;
+                        }
+                    }
+                    .lmqq {
+                        position: absolute;
+                        width: 160px;
+                        height: 160px;
+                        top: 0;
+                        background: rgba(0, 0, 0, .3);
+                        display: none;
+                        .iconfont {
+                            position: absolute;
+                            bottom: 10px;
+                            right: 15px;
+                            font-size: 30px;
+                            color: #cfcfcf;
+                            &:hover {
+                                color: #fff;
+                            }
+                        }
+                    }
+                    .songname {
+                        width: 144px;
+                        height: 38px;
+                        padding: 6px 8px;
+                        background: rgba(0, 0, 0, .5);
+                        position: absolute;
+                        bottom: 0px;
+                        z-index: 10px;
+                        p {
+                            width: 100px;
+                            height: 18.4px;
+                            line-height: 19px;
+                            font-size: 14px;
+                        }
+                        .style {
+                            color: #fff;
+                        }
+                        .name {
+                            color: #cfcfcf;
+                        }
+                    }
+                }
+            }
+        }
+        .hotlist {
+            width: 320px;
+            height: 385px;
+            float: right;
+
+            .gengduo {
+                width: 320px;
+                height: 30px;
+                padding-bottom: 30px;
+                p {
+                    display: inline-block;
+                    width: 120px;
+                    height: 30px;
+                    font-weight: bold;
+                    color: #555;
+                    font-size: 26px;
+                    span {
+                        color: #0c8ed9;
+                    }
+                }
+                a {
+                    display: inline-block;
+                    width: 26px;
+                    height: 19.2px;
+                    margin-top: 7px;
+                    font-size: 13px;
+                    color: #999;
+                    float: right;
+                }
+            }
+            .list {
+                position: relative;
+                width: 320px;
+                height: 98px;
+                margin-bottom: 15px;
+                background: #f6f6f6;
+                &:hover .slmq {
+                    display: block;
+                }
+                img {
+                    width: 98px;
+                    height: 98px;
+                    float: left;
+                }
+                .slmq {
+                    width: 98px;
+                    height: 98px;
+                    background: rgba(0, 0, 0, .5);
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    display: none;
+                    .iconfont {
+                        // margin-top: 34px;
+                        margin-left: 34px;
+                        line-height: 98px; // text-align: center;
+                        font-size: 30px;
+                        color: #cfcfcf;
+                        &:hover {
+                            color: #fff;
+                        }
+                    }
+                }
+                .liebiao {
+                    width: 200px;
+                    height: 68px;
+                    padding: 15px 10px;
+                    float: right;
+
+                    dt {
+                        width: 200px;
+                        height: 24px;
+                        line-height: 24px;
+                        font-size: 14px;
+                        font-weight: bold;
+                        color: #333;
+                    }
+                    dd {
+                        width: 180px;
+                        height: 24px;
+                        line-height: 24px;
+                        font-size: 14px;
+                        color: #555;
+                    }
+                }
+            }
+        }
+    }
+    .advertisement {
+
+        width: 1000px;
+        height: 80px;
+        margin: 0 auto;
+        margin-top: 10px;
+        img {
+            width: 1000px;
+            height: 80px;
+        }
+    }
+    .englishsong {
+        width: 1000px;
+        height: 375px;
+        margin: 0 auto;
+        margin-top: 40px;
+
+        .list_left {
+            float: left;
+            width: 650px;
+            height: 375px;
+
+            .newsong {
+                width: 650px;
+                height: 30px;
+                padding-bottom: 20px;
+                border-bottom: 0.8px solid #f6f6f6;
+                margin-bottom: 10px;
+                h3 {
+                    display: inline-block;
+                    float: left;
+                    width: 120px;
+                    height: 30px;
+
+                    margin-right: 25px;
+                    font-size: 28px;
+                    span {
+                        color: #0c8ed9;
+                    }
+                }
+                .yuzhong {
+                    display: inline-block;
+                    float: left;
+                    width: 183.55px;
+                    height: 29.6px;
+                    margin-top: 0px;
+                    font-size: 0px;
+                    a {
+                        display: inline-block;
+                        width: 28px;
+                        height: 19.2px;
+                        line-height: 30px;
+                        margin-right: 20px;
+                        font-size: 14px;
+                        color: #333;
+                        &:nth-child(4) {
+                            margin-right: 0;
+                        }
+                        &:hover {
+                            color: #009af3;
+                        }
+                    }
+                }
+                .play {
+                    width: 69px;
+                    height: 19.2px;
+                    padding: 5px 10px;
+                    float: right;
+
+                    border-radius: 2px;
+                    border: 1px solid #dbdbdb;
+                    &:hover {
+                        border: 1px solid #009af3;
+                        color: #009af3;
+                    }
+                    i {
+                        display: inline-block;
+                        width: 69px;
+                        height: 16.8px;
+                        font-size: 12px;
+                        color: #555;
+                        text-align: center;
+                        &:hover {
+                            color: #009af3;
+                        }
+                    }
+                }
+            }
+            .gedan {
+                width: 650px;
+                height: 280px;
+
+                a {
+                    display: inline-block;
+                    position: relative;
+                    width: 630px;
+                    height: 35px;
+                    padding: 0 10px;
+                    .iconfont {
+                        color: #333;
+                        font-size: 14px;
+                        line-height: 35px;
+                    }
+                    .iconfont .icon-bofang {
+                        display: inline-block;
+                        width: 15px;
+                        height: 15px;
+
+                        position: absolute;
+                        margin-right: 80px;
+                    }
+                    &:hover {
+                        background-color: #f5f8fb;
+                        span {
+                            color: #009af3;
+                        } // color: #009af3;
+                        .dujia {
+                            display: none;
+                        }
+                    }
+                    span {
+                        display: inline-block;
+                        color: #333;
+                    }
+                    .singer {
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        font-size: 13px;
+                        color: #333; // &:hover {
+                        //     color: #009af3;
+                        // }
+                    }
+                    .songtime {
+                        float: right;
+                        line-height: 30px;
+                    }
+                    .dujia {
+                        width: 21px;
+                        height: 12px;
+                        margin-left: 10px;
+                        margin-top: 12px;
+                        background: url("../../assets/images/first.png") no-repeat 0 0;
+                    }
+                }
+            }
+        }
+        .list_right {
+            width: 320px;
+            height: 362px;
+            float: right;
+
+            .mv {
+                width: 320px;
+                height: 30px;
+                padding-bottom: 30px;
+                p {
+                    display: inline-block;
+                    width: 120px;
+                    height: 30px;
+                    font-weight: bold;
+                    color: #555;
+                    font-size: 26px;
+                    span {
+                        color: #0c8ed9;
+                    }
+                }
+                a {
+                    display: inline-block;
+                    width: 26px;
+                    height: 19.2px;
+                    margin-top: 7px;
+                    font-size: 13px;
+                    color: #999;
+                    float: right;
+                }
+            }
+            .mv_name {
+                width: 332px;
+                height: 312px;
+                .mv_one {
+                    position: relative;
+                    width: 320px;
+                    height: 175px;
+                    &:hover .mlmq {
+                        display: block;
+                    }
+                    img {
+                        width: 320px;
+                        height: 175px;
+                    }
+                    .mv_actor {
+                        width: 304px;
+                        height: 38px;
+                        padding: 6px 8px;
+                        position: absolute;
+                        z-index: 10px;
+                        bottom: 0;
+                        background: rgba(0, 0, 0, .5);
+                        p {
+                            width: 304px;
+                            height: 18.4px;
+                            font-size: 14px;
+                            color: #cfcfcf;
+                            line-height: 19px;
+                        }
+                        .mv_Name {
+                            color: #ffffff;
+                        }
+                    }
+                    .mlmq {
+                        width: 320px;
+                        height: 175px;
+                        background: rgba(0, 0, 0, .3);
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        display: none;
+                        .iconfont {
+                            font-size: 30px;
+                            color: #cfcfcf;
+                            line-height: 175px;
+                            margin-left: 145px;
+                            &:hover {
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+                .mv_two {
+                    float: left;
+                    display: inline-block;
+                    width: 154px;
+                    height: 125px;
+                    margin-right: 12px;
+                    margin-top: 10px;
+                    a {
+                        position: relative;
+
+                        display: inline-block;
+                        width: 154px;
+                        height: 125px;
+                        &:hover .slmq {
+                            display: block;
+                        }
+                        &:hover .describe .huoxian {
+                            color: #009af3;
+                        }
+                        img {
+                            width: 154px;
+                            height: 84px;
+                        }
+                        .slmq {
+                            width: 154px;
+                            height: 84px;
+                            background: rgba(0, 0, 0, .5);
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            display: none;
+                        }
+                        .describe {
+                            width: 144px;
+                            height: 38px;
+                            padding-top: 5px;
+                            p {
+                                width: 154px;
+                                height: 18.4px;
+                                line-height: 19px;
+                            }
+                            .huoxian {
+                                font-size: 14px;
+                                color: #444;
+                            }
+                            .dengziqi {
+                                font-size: 12px;
+                                color: #888;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .kong {
+        width: 1000px;
+        height: 100px;
+        margin: 0 auto;
+        margin-top: 40px;
+        background: #ddd;
+    }
+    .songstyle {
+        width: 1000px;
+        height: 355px;
+        margin: 0 auto;
+        background: cyan;
+        margin-top: 40px;
+        .diantai {
+            width: 650px;
+            height: 370px;
+            float: left;
+            .listname {
+                width: 650px;
+                height: 30px;
+                padding-bottom: 30px;
+
+                p {
+                    display: inline-block;
+                    width: 120px;
+                    height: 30px;
+                    font-weight: bold;
+                    color: #555;
+                    font-size: 26px;
+                    span {
+                        color: #0c8ed9;
+                    }
+                }
+                a {
+                    display: inline-block;
+                    width: 26px;
+                    height: 19.2px;
+                    margin-top: 7px;
+                    font-size: 13px;
+                    color: #999;
+                    float: right;
+                }
+            }
+            .item {
+                width: 650px;
+                height: 310px;
+                a {
+                    display: inline-block;
+                    position: relative;
+                    width: 100px;
+                    height: 130px;
+                    margin: 0;
+                    margin-right: 29px;
+                    margin-bottom: 25px;
+                    font-size: 0px;
+                    &:hover p {
+                        color: #009af3;
+                    }
+                    &:hover .cover {
+                        display: block;
+                    }
+                    img {
+                        width: 100px;
+                        height: 100px;
+                    }
+                    .cover {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 50%;
+                        background: rgba(0, 0, 0, .5); // display: none;
+                        .iconfont {
+                            font-size: 30px;
+                            color: #fff;
+                            line-height: 100px;
+                            margin-left: 35px;
+                        }
+                    }
+                    p {
+                        width: 100px;
+                        height: 20px;
+                        font-size: 14px;
+                        color: #333;
+                        line-height: 20px;
+                        text-align: center;
+                        margin-top: 10px;
+                    }
+                }
+                .meiyong {
+                    margin: 0;
+                }
+            }
+        }
+    }
 }

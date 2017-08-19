@@ -1,3 +1,972 @@
-body {
-  background-color: red;
-  font-size: 12px; }
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header {
+  width: 1000px;
+  height: 78px;
+  margin: 0 259.6px;
+  margin: 0 auto;
+}
+
+.header .logo {
+  display: inline-block;
+  height: 78px;
+  float: left;
+}
+
+.header .logo a {
+  display: inline-block;
+}
+
+.header .logo a img {
+  display: inline-block;
+  width: 153px;
+  height: 36.8px;
+  margin-top: 20px;
+}
+
+.header .search {
+  display: inline-block;
+  width: 300px;
+  height: 36px;
+  padding-top: 20px;
+  margin-left: 40px;
+}
+
+.header .search .search_input {
+  width: 298px;
+  height: 34px;
+  border: 1px solid #ccc;
+  line-height: 34px;
+}
+
+.header .search .search_input input {
+  width: 249px;
+  height: 24px;
+  line-height: 24px;
+  margin-left: 14px;
+  padding: 4px 0;
+  font-size: 13px;
+  border: none;
+  outline: none;
+}
+
+.header .search .search_btn {
+  float: right;
+  width: 34px;
+  height: 34px;
+  text-align: center;
+}
+
+.header .search .search_btn .iconfont {
+  font-size: 18px;
+  color: #777;
+}
+
+.header .search .search_btn .iconfont:hover {
+  color: #0c8ed9;
+}
+
+.header .severs {
+  width: 402px;
+  height: 19px;
+  float: right;
+  margin-top: 30px;
+  line-height: 19px;
+  font-size: 13px;
+}
+
+.header .severs .sever_center {
+  float: left;
+}
+
+.header .severs .sever_center a {
+  margin: 0 15px;
+  color: #777;
+}
+
+.header .severs .sever_center a:hover {
+  color: #169af3;
+}
+
+.header .severs .denglu {
+  float: right;
+  font-size: 14px;
+  margin-top: -5px;
+}
+
+.header .severs .denglu a {
+  display: inline-block;
+  border: 0.8px solid #ddd;
+  border-radius: 3px;
+  width: 48px;
+  height: 28px;
+  font-size: 13px;
+  color: #fff;
+  line-height: 28px;
+  text-align: center;
+  background-color: #169af3;
+}
+
+.header .severs .denglu .login:hover {
+  background-color: #0c8ed9;
+}
+
+.header .severs .denglu .reg {
+  border: 0.8px solid #777;
+  background-color: #fff;
+  color: #666;
+}
+
+.header .severs .denglu .reg:hover {
+  border: 0.8px solid #0c8ed9;
+  color: #0c8ed9;
+}
+
+.nav {
+  width: 100%;
+  height: 55px;
+  background-color: #2c323b;
+}
+
+.nav .Nav {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.nav .Nav .nav_left {
+  float: left;
+  line-height: 55px;
+}
+
+.nav .Nav .nav_left li {
+  float: left;
+}
+
+.nav .Nav .nav_left li a {
+  display: inline-block;
+  font-size: 16px;
+  color: #ddd;
+  padding: 0 30px;
+  margin: 0;
+}
+
+.nav .Nav .nav_left li a:hover {
+  background-color: #0c8ed9;
+}
+
+.nav .Nav .nav_left li .first_page {
+  background-color: #0c8ed9;
+}
+
+.nav .Nav .nav_right {
+  width: 454.438px;
+  height: 55px;
+  float: right;
+  line-height: 55px;
+}
+
+.nav .Nav .nav_right li {
+  float: left;
+  margin-left: 28px;
+}
+
+.nav .Nav .nav_right li a {
+  font-size: 13px;
+  color: #bbb;
+  text-align: right;
+}
+
+.nav .Nav .nav_right li a:hover {
+  color: #0c8ed9;
+}
+
+.lunbotu {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.lunbotu img {
+  width: 100%;
+  height: 500px;
+}
+
+.lunbotu .load {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.lunbotu .load .load_list {
+  display: flex;
+  justify-content: space-around;
+  width: 745px;
+  height: 64px;
+  line-height: 64px;
+  margin: 0 auto;
+}
+
+.lunbotu .load .load_list a {
+  color: #fff;
+}
+
+.lunbotu .load .load_list a img {
+  width: 25px;
+  height: 25px;
+}
+
+.main {
+  width: 100%;
+  min-height: 1000px;
+}
+
+.main .fenlei {
+  width: 1000px;
+  height: 390px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.main .fenlei .songlist {
+  width: 650px;
+  height: 390px;
+  float: left;
+}
+
+.main .fenlei .songlist .listname {
+  width: 650px;
+  height: 30px;
+  padding-bottom: 30px;
+}
+
+.main .fenlei .songlist .listname p {
+  display: inline-block;
+  width: 120px;
+  height: 30px;
+  font-weight: bold;
+  color: #555;
+  font-size: 26px;
+}
+
+.main .fenlei .songlist .listname p span {
+  color: #0c8ed9;
+}
+
+.main .fenlei .songlist .listname a {
+  display: inline-block;
+  width: 26px;
+  height: 19.2px;
+  margin-top: 7px;
+  font-size: 13px;
+  color: #999;
+  float: right;
+}
+
+.main .fenlei .songlist .picture {
+  position: relative;
+  width: 660px;
+  height: 330px;
+}
+
+.main .fenlei .songlist .picture p {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.main .fenlei .songlist .picture .bigpicture {
+  position: relative;
+  float: left;
+  width: 325px;
+  height: 325px;
+  font-size: 0px;
+}
+
+.main .fenlei .songlist .picture .bigpicture:hover .lmq {
+  display: block;
+}
+
+.main .fenlei .songlist .picture .bigpicture img {
+  width: 325px;
+  height: 325px;
+}
+
+.main .fenlei .songlist .picture .bigpicture > p {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 152px;
+  height: 30px;
+  background: url("../images/Bg.png");
+  line-height: 30px;
+}
+
+.main .fenlei .songlist .picture .bigpicture > p .iconfont {
+  float: right;
+  margin-right: 15px;
+  color: #fff;
+}
+
+.main .fenlei .songlist .picture .bigpicture .lmq {
+  width: 325px;
+  height: 325px;
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: none;
+}
+
+.main .fenlei .songlist .picture .bigpicture .lmq .iconfont {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  font-size: 30px;
+  color: #cfcfcf;
+}
+
+.main .fenlei .songlist .picture .bigpicture .lmq .iconfont:hover {
+  color: #fff;
+}
+
+.main .fenlei .songlist .picture .bigpicture .text {
+  width: 309px;
+  height: 38px;
+  padding: 6px 8px;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  z-index: 10px;
+}
+
+.main .fenlei .songlist .picture .bigpicture .text p {
+  width: 295px;
+  height: 18.4px;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.main .fenlei .songlist .picture .bigpicture .text .style {
+  color: #fff;
+}
+
+.main .fenlei .songlist .picture .bigpicture .text .name {
+  color: #cfcfcf;
+}
+
+.main .fenlei .songlist .picture .midpicture {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  float: left;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.main .fenlei .songlist .picture .midpicture:hover .lmqq {
+  display: block;
+}
+
+.main .fenlei .songlist .picture .midpicture img {
+  width: 160px;
+  height: 160px;
+}
+
+.main .fenlei .songlist .picture .midpicture > p {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 152px;
+  height: 30px;
+  background: url("../images/Bg.png");
+  line-height: 30px;
+}
+
+.main .fenlei .songlist .picture .midpicture > p .iconfont {
+  float: right;
+  margin-right: 15px;
+  color: #fff;
+}
+
+.main .fenlei .songlist .picture .midpicture .lmqq {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  top: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: none;
+}
+
+.main .fenlei .songlist .picture .midpicture .lmqq .iconfont {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  font-size: 30px;
+  color: #cfcfcf;
+}
+
+.main .fenlei .songlist .picture .midpicture .lmqq .iconfont:hover {
+  color: #fff;
+}
+
+.main .fenlei .songlist .picture .midpicture .songname {
+  width: 144px;
+  height: 38px;
+  padding: 6px 8px;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0px;
+  z-index: 10px;
+}
+
+.main .fenlei .songlist .picture .midpicture .songname p {
+  width: 100px;
+  height: 18.4px;
+  line-height: 19px;
+  font-size: 14px;
+}
+
+.main .fenlei .songlist .picture .midpicture .songname .style {
+  color: #fff;
+}
+
+.main .fenlei .songlist .picture .midpicture .songname .name {
+  color: #cfcfcf;
+}
+
+.main .fenlei .hotlist {
+  width: 320px;
+  height: 385px;
+  float: right;
+}
+
+.main .fenlei .hotlist .gengduo {
+  width: 320px;
+  height: 30px;
+  padding-bottom: 30px;
+}
+
+.main .fenlei .hotlist .gengduo p {
+  display: inline-block;
+  width: 120px;
+  height: 30px;
+  font-weight: bold;
+  color: #555;
+  font-size: 26px;
+}
+
+.main .fenlei .hotlist .gengduo p span {
+  color: #0c8ed9;
+}
+
+.main .fenlei .hotlist .gengduo a {
+  display: inline-block;
+  width: 26px;
+  height: 19.2px;
+  margin-top: 7px;
+  font-size: 13px;
+  color: #999;
+  float: right;
+}
+
+.main .fenlei .hotlist .list {
+  position: relative;
+  width: 320px;
+  height: 98px;
+  margin-bottom: 15px;
+  background: #f6f6f6;
+}
+
+.main .fenlei .hotlist .list:hover .slmq {
+  display: block;
+}
+
+.main .fenlei .hotlist .list img {
+  width: 98px;
+  height: 98px;
+  float: left;
+}
+
+.main .fenlei .hotlist .list .slmq {
+  width: 98px;
+  height: 98px;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.main .fenlei .hotlist .list .slmq .iconfont {
+  margin-left: 34px;
+  line-height: 98px;
+  font-size: 30px;
+  color: #cfcfcf;
+}
+
+.main .fenlei .hotlist .list .slmq .iconfont:hover {
+  color: #fff;
+}
+
+.main .fenlei .hotlist .list .liebiao {
+  width: 200px;
+  height: 68px;
+  padding: 15px 10px;
+  float: right;
+}
+
+.main .fenlei .hotlist .list .liebiao dt {
+  width: 200px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+.main .fenlei .hotlist .list .liebiao dd {
+  width: 180px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 14px;
+  color: #555;
+}
+
+.main .advertisement {
+  width: 1000px;
+  height: 80px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.main .advertisement img {
+  width: 1000px;
+  height: 80px;
+}
+
+.main .englishsong {
+  width: 1000px;
+  height: 375px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.main .englishsong .list_left {
+  float: left;
+  width: 650px;
+  height: 375px;
+}
+
+.main .englishsong .list_left .newsong {
+  width: 650px;
+  height: 30px;
+  padding-bottom: 20px;
+  border-bottom: 0.8px solid #f6f6f6;
+  margin-bottom: 10px;
+}
+
+.main .englishsong .list_left .newsong h3 {
+  display: inline-block;
+  float: left;
+  width: 120px;
+  height: 30px;
+  margin-right: 25px;
+  font-size: 28px;
+}
+
+.main .englishsong .list_left .newsong h3 span {
+  color: #0c8ed9;
+}
+
+.main .englishsong .list_left .newsong .yuzhong {
+  display: inline-block;
+  float: left;
+  width: 183.55px;
+  height: 29.6px;
+  margin-top: 0px;
+  font-size: 0px;
+}
+
+.main .englishsong .list_left .newsong .yuzhong a {
+  display: inline-block;
+  width: 28px;
+  height: 19.2px;
+  line-height: 30px;
+  margin-right: 20px;
+  font-size: 14px;
+  color: #333;
+}
+
+.main .englishsong .list_left .newsong .yuzhong a:nth-child(4) {
+  margin-right: 0;
+}
+
+.main .englishsong .list_left .newsong .yuzhong a:hover {
+  color: #009af3;
+}
+
+.main .englishsong .list_left .newsong .play {
+  width: 69px;
+  height: 19.2px;
+  padding: 5px 10px;
+  float: right;
+  border-radius: 2px;
+  border: 1px solid #dbdbdb;
+}
+
+.main .englishsong .list_left .newsong .play:hover {
+  border: 1px solid #009af3;
+  color: #009af3;
+}
+
+.main .englishsong .list_left .newsong .play i {
+  display: inline-block;
+  width: 69px;
+  height: 16.8px;
+  font-size: 12px;
+  color: #555;
+  text-align: center;
+}
+
+.main .englishsong .list_left .newsong .play i:hover {
+  color: #009af3;
+}
+
+.main .englishsong .list_left .gedan {
+  width: 650px;
+  height: 280px;
+}
+
+.main .englishsong .list_left .gedan a {
+  display: inline-block;
+  position: relative;
+  width: 630px;
+  height: 35px;
+  padding: 0 10px;
+}
+
+.main .englishsong .list_left .gedan a .iconfont {
+  color: #333;
+  font-size: 14px;
+  line-height: 35px;
+}
+
+.main .englishsong .list_left .gedan a .iconfont .icon-bofang {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  margin-right: 80px;
+}
+
+.main .englishsong .list_left .gedan a:hover {
+  background-color: #f5f8fb;
+}
+
+.main .englishsong .list_left .gedan a:hover span {
+  color: #009af3;
+}
+
+.main .englishsong .list_left .gedan a:hover .dujia {
+  display: none;
+}
+
+.main .englishsong .list_left .gedan a span {
+  display: inline-block;
+  color: #333;
+}
+
+.main .englishsong .list_left .gedan a .singer {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 13px;
+  color: #333;
+}
+
+.main .englishsong .list_left .gedan a .songtime {
+  float: right;
+  line-height: 30px;
+}
+
+.main .englishsong .list_left .gedan a .dujia {
+  width: 21px;
+  height: 12px;
+  margin-left: 10px;
+  margin-top: 12px;
+  background: url("../../assets/images/first.png") no-repeat 0 0;
+}
+
+.main .englishsong .list_right {
+  width: 320px;
+  height: 362px;
+  float: right;
+}
+
+.main .englishsong .list_right .mv {
+  width: 320px;
+  height: 30px;
+  padding-bottom: 30px;
+}
+
+.main .englishsong .list_right .mv p {
+  display: inline-block;
+  width: 120px;
+  height: 30px;
+  font-weight: bold;
+  color: #555;
+  font-size: 26px;
+}
+
+.main .englishsong .list_right .mv p span {
+  color: #0c8ed9;
+}
+
+.main .englishsong .list_right .mv a {
+  display: inline-block;
+  width: 26px;
+  height: 19.2px;
+  margin-top: 7px;
+  font-size: 13px;
+  color: #999;
+  float: right;
+}
+
+.main .englishsong .list_right .mv_name {
+  width: 332px;
+  height: 312px;
+}
+
+.main .englishsong .list_right .mv_name .mv_one {
+  position: relative;
+  width: 320px;
+  height: 175px;
+}
+
+.main .englishsong .list_right .mv_name .mv_one:hover .mlmq {
+  display: block;
+}
+
+.main .englishsong .list_right .mv_name .mv_one img {
+  width: 320px;
+  height: 175px;
+}
+
+.main .englishsong .list_right .mv_name .mv_one .mv_actor {
+  width: 304px;
+  height: 38px;
+  padding: 6px 8px;
+  position: absolute;
+  z-index: 10px;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.main .englishsong .list_right .mv_name .mv_one .mv_actor p {
+  width: 304px;
+  height: 18.4px;
+  font-size: 14px;
+  color: #cfcfcf;
+  line-height: 19px;
+}
+
+.main .englishsong .list_right .mv_name .mv_one .mv_actor .mv_Name {
+  color: #ffffff;
+}
+
+.main .englishsong .list_right .mv_name .mv_one .mlmq {
+  width: 320px;
+  height: 175px;
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.main .englishsong .list_right .mv_name .mv_one .mlmq .iconfont {
+  font-size: 30px;
+  color: #cfcfcf;
+  line-height: 175px;
+  margin-left: 145px;
+}
+
+.main .englishsong .list_right .mv_name .mv_one .mlmq .iconfont:hover {
+  color: #fff;
+}
+
+.main .englishsong .list_right .mv_name .mv_two {
+  float: left;
+  display: inline-block;
+  width: 154px;
+  height: 125px;
+  margin-right: 12px;
+  margin-top: 10px;
+}
+
+.main .englishsong .list_right .mv_name .mv_two a {
+  position: relative;
+  display: inline-block;
+  width: 154px;
+  height: 125px;
+}
+
+.main .englishsong .list_right .mv_name .mv_two a:hover .slmq {
+  display: block;
+}
+
+.main .englishsong .list_right .mv_name .mv_two a:hover .describe .huoxian {
+  color: #009af3;
+}
+
+.main .englishsong .list_right .mv_name .mv_two a img {
+  width: 154px;
+  height: 84px;
+}
+
+.main .englishsong .list_right .mv_name .mv_two a .slmq {
+  width: 154px;
+  height: 84px;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.main .englishsong .list_right .mv_name .mv_two a .describe {
+  width: 144px;
+  height: 38px;
+  padding-top: 5px;
+}
+
+.main .englishsong .list_right .mv_name .mv_two a .describe p {
+  width: 154px;
+  height: 18.4px;
+  line-height: 19px;
+}
+
+.main .englishsong .list_right .mv_name .mv_two a .describe .huoxian {
+  font-size: 14px;
+  color: #444;
+}
+
+.main .englishsong .list_right .mv_name .mv_two a .describe .dengziqi {
+  font-size: 12px;
+  color: #888;
+}
+
+.main .kong {
+  width: 1000px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background: #ddd;
+}
+
+.main .songstyle {
+  width: 1000px;
+  height: 355px;
+  margin: 0 auto;
+  background: cyan;
+  margin-top: 40px;
+}
+
+.main .songstyle .diantai {
+  width: 650px;
+  height: 370px;
+  float: left;
+}
+
+.main .songstyle .diantai .listname {
+  width: 650px;
+  height: 30px;
+  padding-bottom: 30px;
+}
+
+.main .songstyle .diantai .listname p {
+  display: inline-block;
+  width: 120px;
+  height: 30px;
+  font-weight: bold;
+  color: #555;
+  font-size: 26px;
+}
+
+.main .songstyle .diantai .listname p span {
+  color: #0c8ed9;
+}
+
+.main .songstyle .diantai .listname a {
+  display: inline-block;
+  width: 26px;
+  height: 19.2px;
+  margin-top: 7px;
+  font-size: 13px;
+  color: #999;
+  float: right;
+}
+
+.main .songstyle .diantai .item {
+  width: 650px;
+  height: 310px;
+}
+
+.main .songstyle .diantai .item a {
+  display: inline-block;
+  position: relative;
+  width: 100px;
+  height: 130px;
+  margin: 0;
+  margin-right: 29px;
+  margin-bottom: 25px;
+  font-size: 0px;
+}
+
+.main .songstyle .diantai .item a:hover p {
+  color: #009af3;
+}
+
+.main .songstyle .diantai .item a:hover .cover {
+  display: block;
+}
+
+.main .songstyle .diantai .item a img {
+  width: 100px;
+  height: 100px;
+}
+
+.main .songstyle .diantai .item a .cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.main .songstyle .diantai .item a .cover .iconfont {
+  font-size: 30px;
+  color: #fff;
+  line-height: 100px;
+  margin-left: 35px;
+}
+
+.main .songstyle .diantai .item a p {
+  width: 100px;
+  height: 20px;
+  font-size: 14px;
+  color: #333;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.main .songstyle .diantai .item .meiyong {
+  margin: 0;
+}
