@@ -518,6 +518,7 @@
   height: 68px;
   padding: 15px 10px;
   float: right;
+  position: relative;
 }
 
 .main .fenlei .hotlist .list .liebiao dt {
@@ -535,6 +536,16 @@
   line-height: 24px;
   font-size: 14px;
   color: #555;
+}
+
+.main .fenlei .hotlist .list .liebiao span {
+  display: inline-block;
+  position: absolute;
+  right: 15px;
+  top: 42px;
+  width: 7px;
+  height: 14px;
+  color: #999;
 }
 
 .main .advertisement {
@@ -865,14 +876,12 @@
   height: 100px;
   margin: 0 auto;
   margin-top: 40px;
-  background: #ddd;
 }
 
 .main .songstyle {
   width: 1000px;
   height: 355px;
   margin: 0 auto;
-  background: cyan;
   margin-top: 40px;
 }
 
@@ -969,4 +978,303 @@
 
 .main .songstyle .diantai .item .meiyong {
   margin: 0;
+}
+
+.main .songstyle .hotsinger {
+  width: 320px;
+  height: 380px;
+  float: right;
+}
+
+.main .songstyle .hotsinger .singertitle {
+  width: 350px;
+  height: 30px;
+  padding-bottom: 30px;
+}
+
+.main .songstyle .hotsinger .singertitle p {
+  display: inline-block;
+  font-size: 28px;
+  color: #555;
+  line-height: 30px;
+  margin-right: 15px;
+  float: left;
+}
+
+.main .songstyle .hotsinger .singertitle p span {
+  color: #009af3;
+}
+
+.main .songstyle .hotsinger .singertitle .guojia {
+  display: inline-block;
+  width: 210px;
+  height: 29.6px;
+  line-height: 30px;
+  float: left;
+}
+
+.main .songstyle .hotsinger .singertitle .guojia a {
+  display: inline-block;
+  font-size: 14px;
+  color: #333;
+  margin-right: 20px;
+}
+
+.main .songstyle .hotsinger .singertitle .guojia a:hover {
+  color: #009af3;
+}
+
+.main .songstyle .hotsinger .singertitle .guojia .gengduo {
+  color: #999;
+}
+
+.main .songstyle .hotsinger .singerphoto {
+  width: 330px;
+  height: 320px;
+}
+
+.main .songstyle .hotsinger .singerphoto .photo_one {
+  width: 330px;
+  height: 270px;
+}
+
+.main .songstyle .hotsinger .singerphoto .photo_one a {
+  display: inline-block;
+  position: relative;
+  font-size: 0px;
+  margin-bottom: 6px;
+}
+
+.main .songstyle .hotsinger .singerphoto .photo_one a:hover .scover {
+  display: block;
+}
+
+.main .songstyle .hotsinger .singerphoto .photo_one a img {
+  width: 160px;
+  height: 160px;
+}
+
+.main .songstyle .hotsinger .singerphoto .photo_one a .three {
+  width: 105px;
+  height: 105px;
+}
+
+.main .songstyle .hotsinger .singerphoto .photo_one a .scover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 160px;
+  height: 160px;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.main .songstyle .hotsinger .singerphoto .photo_one .xue {
+  position: relative;
+  width: 160px;
+  height: 160px;
+}
+
+.main .songstyle .hotsinger .singerphoto .photo_one .xue span {
+  display: inline-block;
+  width: 143px;
+  height: 38px;
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  line-height: 50px;
+  padding: 6px 8px;
+}
+
+.main .songstyle .hotsinger .singerphoto .photo_one .lu {
+  position: relative;
+  width: 105px;
+  height: 105px;
+}
+
+.main .songstyle .hotsinger .singerphoto .photo_one .lu .scover {
+  width: 105px;
+  height: 105px;
+}
+
+.main .songstyle .hotsinger .singerphoto .photo_one .lu span {
+  display: inline-block;
+  width: 89px;
+  height: 38px;
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  line-height: 50px;
+  padding: 6px 8px;
+}
+
+.main .partner {
+  width: 1000px;
+  height: 276px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.main .partner .ptitle {
+  width: 1000px;
+  height: 30px;
+  padding-bottom: 30px;
+}
+
+.main .partner .ptitle p {
+  width: 120px;
+  height: 30px;
+  font-size: 28px;
+  color: #555;
+}
+
+.main .partner .ptitle p span {
+  color: #009af3;
+}
+
+.main .partner .shangjia {
+  width: 1010px;
+  height: 216px;
+}
+
+.main .partner .shangjia a {
+  display: inline-block;
+  width: 130px;
+  height: 58px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  float: left;
+  border: 1px dashed #ccc;
+}
+
+.main .partner .shangjia a img {
+  width: 130px;
+  height: 58px;
+}
+
+.main .friendship {
+  width: 1000px;
+  height: 168px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.main .friendship .friendlink {
+  width: 1000px;
+  height: 30px;
+  padding-bottom: 30px;
+}
+
+.main .friendship .friendlink a {
+  display: inline-block;
+  width: 26px;
+  height: 19.2px;
+  margin-top: 7px;
+  font-size: 13px;
+  color: #999;
+  float: right;
+}
+
+.main .friendship .friendlink p {
+  width: 120px;
+  height: 30px;
+  margin-right: 25px;
+  float: left;
+  font-size: 28px;
+  color: #555;
+}
+
+.main .friendship .friendlink p span {
+  color: #009af3;
+}
+
+.main .friendship .linkname {
+  width: 1000px;
+  height: 88px;
+  padding-bottom: 20px;
+}
+
+.main .friendship .linkname a {
+  display: inline-block;
+  width: 125px;
+  height: 24px;
+  margin-bottom: 20px;
+  float: left;
+  font-size: 13px;
+  line-height: 24px;
+  color: #555;
+}
+
+.footer {
+  width: 100%;
+  height: 236.6px;
+  padding-bottom: 50px;
+  background: #2c323b;
+}
+
+.footer .links {
+  width: 100%;
+  height: 17.6px;
+  border-bottom: 1px solid #3d424a;
+  padding: 15px 0;
+  font-size: 12px;
+  color: #b1b3b9;
+  text-align: center;
+}
+
+.footer .links a {
+  display: inline-block;
+  color: #b1b3b9;
+  margin-right: 0;
+}
+
+.footer .links a::after {
+  content: "|";
+  margin: 0 10px;
+  color: #b1b3b9;
+  font-size: 12px;
+}
+
+.footer .links a:last-child::after {
+  content: "";
+  margin: 0;
+}
+
+.footer .message {
+  width: 1000px;
+  height: 148px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.footer .message p {
+  width: 1000px;
+  height: 29.6px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 13px;
+  color: #b1b3b9;
+}
+
+.footer .message p > a {
+  color: #999;
+}
+
+.footer .message p > a span {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  margin-top: 5px;
+  background: url("../../assets/images/footer_icon.png") no-repeat;
+}
+
+.footer .message .sine a {
+  padding: 5px 10px;
+  margin-left: 5px;
+  background: url("../../assets/images/logo_down.png") no-repeat;
 }
