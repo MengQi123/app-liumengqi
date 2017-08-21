@@ -565,57 +565,46 @@
             .gedan {
                 width: 650px;
                 height: 280px;
-
+                color: #333;
+                li {
+                    line-height: 35px;
+                }
                 a {
                     display: inline-block;
-                    position: relative;
                     width: 630px;
                     height: 35px;
                     padding: 0 10px;
-                    .iconfont {
-                        color: #333;
-                        font-size: 14px;
-                        line-height: 35px;
-                    }
-                    .iconfont .icon-bofang {
-                        display: inline-block;
-                        width: 15px;
-                        height: 15px;
-
-                        position: absolute;
-                        margin-right: 80px;
-                    }
                     &:hover {
                         background-color: #f5f8fb;
-                        span {
-                            color: #009af3;
-                        } // color: #009af3;
-                        .dujia {
-                            display: none;
-                        }
+                    }
+                    &:hover span {
+                        color: #009af3;
+                    }
+                    &:hover .iconfont {
+                        display: block;
+                    }
+                    div {
+                        float: right;
+                        width: 100px;
+                        height: 30px;
+                        margin-right: 10px;
+                    }
+                    img {
+                        margin-left: 6px;
+                    }
+                    .iconfont {
+                        float: left;
+                        color: #333;
+                        font-size: 14px;
+                        margin-left: 8px;
+                        display: none;
                     }
                     span {
-                        display: inline-block;
+                        font-size: 13px;
                         color: #333;
                     }
-                    .singer {
-                        overflow: hidden;
-                        text-overflow: ellipsis;
-                        font-size: 13px;
-                        color: #333; // &:hover {
-                        //     color: #009af3;
-                        // }
-                    }
-                    .songtime {
+                    .yige {
                         float: right;
-                        line-height: 30px;
-                    }
-                    .dujia {
-                        width: 21px;
-                        height: 12px;
-                        margin-left: 10px;
-                        margin-top: 12px;
-                        background: url("../../assets/images/first.png") no-repeat 0 0;
                     }
                 }
             }
@@ -828,7 +817,8 @@
                         width: 100px;
                         height: 100px;
                         border-radius: 50%;
-                        background: rgba(0, 0, 0, .5); // display: none;
+                        background: rgba(0, 0, 0, .5);
+                        display: none;
                         .iconfont {
                             font-size: 30px;
                             color: #fff;

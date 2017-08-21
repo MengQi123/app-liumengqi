@@ -651,28 +651,18 @@
 .main .englishsong .list_left .gedan {
   width: 650px;
   height: 280px;
+  color: #333;
+}
+
+.main .englishsong .list_left .gedan li {
+  line-height: 35px;
 }
 
 .main .englishsong .list_left .gedan a {
   display: inline-block;
-  position: relative;
   width: 630px;
   height: 35px;
   padding: 0 10px;
-}
-
-.main .englishsong .list_left .gedan a .iconfont {
-  color: #333;
-  font-size: 14px;
-  line-height: 35px;
-}
-
-.main .englishsong .list_left .gedan a .iconfont .icon-bofang {
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  position: absolute;
-  margin-right: 80px;
 }
 
 .main .englishsong .list_left .gedan a:hover {
@@ -683,33 +673,36 @@
   color: #009af3;
 }
 
-.main .englishsong .list_left .gedan a:hover .dujia {
+.main .englishsong .list_left .gedan a:hover .iconfont {
+  display: block;
+}
+
+.main .englishsong .list_left .gedan a div {
+  float: right;
+  width: 100px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.main .englishsong .list_left .gedan a img {
+  margin-left: 6px;
+}
+
+.main .englishsong .list_left .gedan a .iconfont {
+  float: left;
+  color: #333;
+  font-size: 14px;
+  margin-left: 8px;
   display: none;
 }
 
 .main .englishsong .list_left .gedan a span {
-  display: inline-block;
-  color: #333;
-}
-
-.main .englishsong .list_left .gedan a .singer {
-  overflow: hidden;
-  text-overflow: ellipsis;
   font-size: 13px;
   color: #333;
 }
 
-.main .englishsong .list_left .gedan a .songtime {
+.main .englishsong .list_left .gedan a .yige {
   float: right;
-  line-height: 30px;
-}
-
-.main .englishsong .list_left .gedan a .dujia {
-  width: 21px;
-  height: 12px;
-  margin-left: 10px;
-  margin-top: 12px;
-  background: url("../../assets/images/first.png") no-repeat 0 0;
 }
 
 .main .englishsong .list_right {
@@ -957,6 +950,7 @@
   height: 100px;
   border-radius: 50%;
   background: rgba(0, 0, 0, 0.5);
+  display: none;
 }
 
 .main .songstyle .diantai .item a .cover .iconfont {

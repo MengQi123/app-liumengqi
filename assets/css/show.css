@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container .header {
+  width: 1000px;
+  height: 78px;
+  margin: 0 259.6px;
+  margin: 0 auto;
+}
+
+.container .header .logo {
+  display: inline-block;
+  height: 78px;
+  float: left;
+}
+
+.container .header .logo a {
+  display: inline-block;
+}
+
+.container .header .logo a img {
+  display: inline-block;
+  width: 153px;
+  height: 36.8px;
+  margin-top: 20px;
+}
+
+.container .header .search {
+  display: inline-block;
+  width: 300px;
+  height: 36px;
+  padding-top: 20px;
+  margin-left: 40px;
+}
+
+.container .header .search .search_input {
+  width: 298px;
+  height: 34px;
+  border: 1px solid #ccc;
+  line-height: 34px;
+}
+
+.container .header .search .search_input input {
+  width: 249px;
+  height: 24px;
+  line-height: 24px;
+  margin-left: 14px;
+  padding: 4px 0;
+  font-size: 13px;
+  border: none;
+  outline: none;
+}
+
+.container .header .search .search_btn {
+  float: right;
+  width: 34px;
+  height: 34px;
+  text-align: center;
+}
+
+.container .header .search .search_btn .iconfont {
+  font-size: 18px;
+  color: #777;
+}
+
+.container .header .search .search_btn .iconfont:hover {
+  color: #0c8ed9;
+}
+
+.container .header .severs {
+  width: 402px;
+  height: 19px;
+  float: right;
+  margin-top: 30px;
+  line-height: 19px;
+  font-size: 13px;
+}
+
+.container .header .severs .sever_center {
+  float: left;
+}
+
+.container .header .severs .sever_center a {
+  margin: 0 15px;
+  color: #777;
+}
+
+.container .header .severs .sever_center a:hover {
+  color: #169af3;
+}
+
+.container .header .severs .denglu {
+  float: right;
+  font-size: 14px;
+  margin-top: -5px;
+}
+
+.container .header .severs .denglu a {
+  display: inline-block;
+  border: 0.8px solid #ddd;
+  border-radius: 3px;
+  width: 48px;
+  height: 28px;
+  font-size: 13px;
+  color: #fff;
+  line-height: 28px;
+  text-align: center;
+  background-color: #169af3;
+}
+
+.container .header .severs .denglu .login:hover {
+  background-color: #0c8ed9;
+}
+
+.container .header .severs .denglu .reg {
+  border: 0.8px solid #777;
+  background-color: #fff;
+  color: #666;
+}
+
+.container .header .severs .denglu .reg:hover {
+  border: 0.8px solid #0c8ed9;
+  color: #0c8ed9;
+}
+
+.container .nav {
+  width: 100%;
+  height: 55px;
+  background-color: #2c323b;
+}
+
+.container .nav .Nav {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.container .nav .Nav .nav_left {
+  float: left;
+  line-height: 55px;
+}
+
+.container .nav .Nav .nav_left li {
+  float: left;
+}
+
+.container .nav .Nav .nav_left li a {
+  display: inline-block;
+  font-size: 16px;
+  color: #ddd;
+  padding: 0 30px;
+  margin: 0;
+}
+
+.container .nav .Nav .nav_left li a:hover {
+  background-color: #0c8ed9;
+}
+
+.container .nav .Nav .nav_left li .first_page {
+  background-color: #0c8ed9;
+}
+
+.container .nav .Nav .nav_right {
+  width: 454.438px;
+  height: 55px;
+  float: right;
+  line-height: 55px;
+}
+
+.container .nav .Nav .nav_right li {
+  float: left;
+  margin-left: 28px;
+}
+
+.container .nav .Nav .nav_right li a {
+  font-size: 13px;
+  color: #bbb;
+  text-align: right;
+}
+
+.container .nav .Nav .nav_right li a:hover {
+  color: #0c8ed9;
+}
+
+.container .main {
+  padding-top: 10px;
+  width: 100%;
+  min-height: 50px;
+  background: url(../../assets/images/iebg.jpg) no-repeat;
+  padding-top: 31.5px;
+}
+
+.container .main .content {
+  width: 840px;
+  height: 493px;
+  margin: 0 auto;
+}
+
+.container .main .content .photo {
+  width: 262px;
+  height: 447px;
+  float: left;
+}
+
+.container .main .content .photo .image {
+  display: block;
+  width: 260px;
+  height: 260px;
+}
+
+.container .main .content .photo .image img {
+  width: 260px;
+  height: 260px;
+}
+
+.container .main .content .photo .xiazai {
+  width: 246px;
+  height: 50px;
+  padding-left: 16px;
+  margin-top: 40px;
+}
+
+.container .main .content .photo .xiazai a {
+  display: block;
+  width: 230px;
+  height: 50px;
+  background: url(../../assets/images/downlaod_bg.png) no-repeat;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  color: #555;
+}
+
+.container .main .content .photo .zhibo {
+  width: 320px;
+  height: 55px;
+  margin-top: 40px;
+  margin-left: -55px;
+  line-height: 55px;
+  display: none;
+}
+
+.container .main .content .photo .zhibo img {
+  display: inline-block;
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.container .main .content .photo .zhibo .qipao {
+  display: inline-block;
+  width: 222px;
+  height: 48px;
+  padding: 8px 8px 8px 20px;
+  background: url(../../assets/images/fanxingad_bg.png) no-repeat;
+}
+
+.container .main .content .photo .zhibo .qipao p {
+  width: 150px;
+  height: 20px;
+}
+
+.container .main .content .geci {
+  width: 460px;
+  height: 500px;
+  margin-top: -7px;
+  margin-left: 116px;
+  float: right;
+}
+
+.container .main .content .geci p {
+  width: 460px;
+  height: 36px;
+  color: #fff;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.container .main .content .geci .zhuanji {
+  width: 460px;
+  height: 24px;
+  padding-top: 9px;
+}
+
+.container .main .content .geci .zhuanji p {
+  float: left;
+  width: 99.45px;
+  height: 24px;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.container .main .content .geci .zhuanji p span {
+  color: #333;
+}
+
+.container .main .content .geci .zhuanji p a {
+  color: #fff;
+}
+
+.container .main .content .geci .gecitexiao {
+  position: relative;
+  width: 460px;
+  height: 388px;
+  margin-top: 17px;
+  overflow: hidden;
+}
+
+.container .main .content .geci .gecitexiao:hover .line {
+  display: block;
+}
+
+.container .main .content .geci .gecitexiao .line {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 8px;
+  height: 200px;
+  border-radius: 3px;
+  background-color: #ddd;
+}
+
+.container .main .content .geci .gecitexiao .box {
+  width: 480px;
+  height: 388px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.container .main .content .geci .gecitexiao .box p {
+  width: 420px;
+  height: 34px;
+  line-height: 34px;
+  font-size: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  opacity: .6;
+}
+
+.container .main .play {
+  width: 100%;
+  height: 80px;
+  background-color: #000;
+  opacity: .3;
+  margin-top: 20px;
+}
