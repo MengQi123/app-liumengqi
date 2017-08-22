@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header {
+  width: 960px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.header ul {
+  width: 125px;
+  height: 40px;
+  float: right;
+}
+
+.header ul li {
+  float: left;
+  width: 40px;
+  height: 38px;
+  text-align: center;
+}
+
+.header ul li a {
+  display: inline-block;
+  width: 38px;
+  height: 20.8px;
+  padding-top: 8px;
+  color: #0c85cc;
+  font-size: 14px;
+  line-height: 20.8px;
+  text-align: center;
+}
+
+.header ul li.gang {
+  width: 1px;
+  height: 38px;
+}
+
+.header ul li.gang a {
+  display: inline-block;
+  width: 1px;
+  font-size: 14px;
+}
+
+.header ul li .cart {
+  width: 16px;
+  height: 16px;
+}
+
+.nav {
+  width: 100%;
+  height: 60px;
+  background-color: #008ad4;
+}
+
+.nav .nav_1 {
+  width: 960px;
+  height: 60px;
+  margin: 0 auto;
+  line-height: 60px;
+}
+
+.nav .nav_1 li {
+  float: left;
+  line-height: 60px;
+  text-align: center;
+}
+
+.nav .nav_1 li a {
+  padding: 0 11px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.nav .nav_1 img {
+  width: 170px;
+  height: 40px;
+  float: left;
+  display: inline;
+  padding: 10px 10px 0px 0px;
+}
+
+.nav .nav_1 .kugou {
+  width: 376px;
+  height: 60px;
+  float: left;
+}
+
+.nav .nav_1 .vip {
+  float: right;
+}
+
+.body {
+  width: 960px;
+  height: 628px;
+  padding: 40px 0 50px 0;
+  margin: 0 auto;
+}
+
+.body .zhuti {
+  width: 960px;
+  height: 626px;
+}
+
+.body .zhuti .shouji {
+  width: 958px;
+  height: 27px;
+  padding: 28px 0 23px 0;
+  margin-top: -10px;
+  border-top: 6px solid #54ade7;
+  border-left: 1px solid #54ade7;
+  border-right: 1px solid #54ade7;
+}
+
+.body .zhuti .shouji a span {
+  display: block;
+  width: 128px;
+  height: 27px;
+  margin: 0 auto;
+  color: #54ade7;
+  background: url(../../assets/images/kg_lgn_splice.png) no-repeat;
+  background-position: -350px -50px;
+}
+
+.body .zhuti .content {
+  width: 858px;
+  height: 440px;
+  padding: 50px;
+  border-left: 1px solid #54ade7;
+  border-right: 1px solid #54ade7;
+  border-bottom: 1px solid #54ade7;
+}
+
+.body .zhuti .content .right {
+  height: 75px;
+}
+
+.body .zhuti .content > div {
+  margin-bottom: 12px;
+  width: 858px;
+  height: 38px;
+  line-height: 38px;
+}
+
+.body .zhuti .content > div > div {
+  float: left;
+}
+
+.body .zhuti .content > div .left {
+  width: 300px;
+  height: 38px;
+  color: #474747;
+}
+
+.body .zhuti .content > div .left span {
+  float: right;
+}
+
+.body .zhuti .content > div .qiangdu {
+  margin-top: 10px;
+  height: 18px;
+  line-height: 18px;
+}
+
+.body .zhuti .content > div .qiangdu span {
+  float: left;
+  font-size: 12px;
+  color: #7d7d7d;
+}
+
+.body .zhuti .content > div .qiangdu .qiang {
+  float: left;
+  margin: 3px 5px;
+  width: 169px;
+  height: 12px;
+  background: #e0e0e0;
+}
+
+.body .zhuti .content > div .qiangdu .qiang .ruo {
+  margin-left: 54px;
+  width: 2px;
+  height: 12px;
+  background: #fff;
+}
+
+.body .zhuti .content .shuru {
+  height: 22px;
+  padding: 7px;
+  line-height: 22px;
+  width: 275px;
+  color: #7b7b7b;
+  border: 1px solid #ccc;
+  background: #f3f3f3;
+}
+
+.body .zhuti .content .shuru:hover {
+  border: 1px solid #54ade7;
+}
+
+.body .zhuti .content .yanzheng {
+  width: 136px;
+  float: left;
+}
+
+.body .zhuti .content .message {
+  display: inline-block;
+  margin: 1px 0 0 8px;
+  width: 68px;
+  height: 36px;
+  background: #bbb;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.body .zhuti .content .message span {
+  padding: 0 10px;
+  color: #fff;
+}
+
+.body .zhuti .content .box {
+  line-height: 38px;
+  font-size: 14px;
+}
+
+.body .zhuti .content .box span {
+  margin-right: 8px;
+}
+
+.body .zhuti .content .box a {
+  color: #71c3e7;
+}
+
+.body .zhuti .content .btn {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 25px;
+  font-size: 21px;
+  border: 0;
+  background: #3db9ec;
+  color: #fff;
+  border-radius: 3px;
+  outline: none;
+}
+
+.body .zhuti .content .btn:hover {
+  background: #2085e5;
+}
+
+.footer {
+  width: 100%;
+  height: 236.6px;
+  padding-bottom: 50px;
+  background: #2c323b;
+}
+
+.footer .links {
+  width: 100%;
+  height: 17.6px;
+  border-bottom: 1px solid #3d424a;
+  padding: 15px 0;
+  font-size: 12px;
+  color: #b1b3b9;
+  text-align: center;
+}
+
+.footer .links a {
+  display: inline-block;
+  color: #b1b3b9;
+  margin-right: 0;
+}
+
+.footer .links a::after {
+  content: "|";
+  margin: 0 10px;
+  color: #b1b3b9;
+  font-size: 12px;
+}
+
+.footer .links a:last-child::after {
+  content: "";
+  margin: 0;
+}
+
+.footer .messages {
+  width: 1000px;
+  height: 148px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.footer .messages p {
+  width: 1000px;
+  height: 29.6px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 13px;
+  color: #b1b3b9;
+}
+
+.footer .messages p > a {
+  color: #999;
+}
+
+.footer .messages p > a span {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  margin-top: 5px;
+  background: url("../../assets/images/footer_icon.png") no-repeat;
+}
+
+.footer .messages .sine a {
+  padding: 5px 10px;
+  margin-left: 5px;
+  background: url("../../assets/images/logo_down.png") no-repeat;
+}

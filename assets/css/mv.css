@@ -1,0 +1,346 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  position: relative;
+  min-height: 1000px;
+}
+
+.container .header {
+  width: 1000px;
+  height: 78px;
+  margin: 0 259.6px;
+  margin: 0 auto;
+}
+
+.container .header .logo {
+  display: inline-block;
+  height: 78px;
+  float: left;
+}
+
+.container .header .logo a {
+  display: inline-block;
+}
+
+.container .header .logo a img {
+  display: inline-block;
+  width: 153px;
+  height: 36.8px;
+  margin-top: 20px;
+}
+
+.container .header .search {
+  display: inline-block;
+  width: 300px;
+  height: 36px;
+  padding-top: 20px;
+  margin-left: 40px;
+}
+
+.container .header .search .search_input {
+  width: 298px;
+  height: 34px;
+  border: 1px solid #ccc;
+  line-height: 34px;
+}
+
+.container .header .search .search_input input {
+  width: 249px;
+  height: 24px;
+  line-height: 24px;
+  margin-left: 14px;
+  padding: 4px 0;
+  font-size: 13px;
+  border: none;
+  outline: none;
+}
+
+.container .header .search .search_btn {
+  float: right;
+  width: 34px;
+  height: 34px;
+  text-align: center;
+}
+
+.container .header .search .search_btn .iconfont {
+  font-size: 18px;
+  color: #777;
+}
+
+.container .header .search .search_btn .iconfont:hover {
+  color: #0c8ed9;
+}
+
+.container .header .severs {
+  width: 402px;
+  height: 19px;
+  float: right;
+  margin-top: 30px;
+  line-height: 19px;
+  font-size: 13px;
+}
+
+.container .header .severs .sever_center {
+  float: left;
+}
+
+.container .header .severs .sever_center a {
+  margin: 0 15px;
+  color: #777;
+}
+
+.container .header .severs .sever_center a:hover {
+  color: #169af3;
+}
+
+.container .header .severs .denglu {
+  float: right;
+  font-size: 14px;
+  margin-top: -5px;
+}
+
+.container .header .severs .denglu a {
+  display: inline-block;
+  border: 0.8px solid #ddd;
+  border-radius: 3px;
+  width: 48px;
+  height: 28px;
+  font-size: 13px;
+  color: #fff;
+  line-height: 28px;
+  text-align: center;
+  background-color: #169af3;
+}
+
+.container .header .severs .denglu .login:hover {
+  background-color: #0c8ed9;
+}
+
+.container .header .severs .denglu .reg {
+  border: 0.8px solid #777;
+  background-color: #fff;
+  color: #666;
+}
+
+.container .header .severs .denglu .reg:hover {
+  border: 0.8px solid #0c8ed9;
+  color: #0c8ed9;
+}
+
+.container .nav {
+  width: 100%;
+  height: 55px;
+  background-color: #2c323b;
+}
+
+.container .nav .Nav {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.container .nav .Nav .nav_left {
+  float: left;
+  line-height: 55px;
+}
+
+.container .nav .Nav .nav_left li {
+  float: left;
+}
+
+.container .nav .Nav .nav_left li a {
+  display: inline-block;
+  font-size: 16px;
+  color: #ddd;
+  padding: 0 30px;
+  margin: 0;
+}
+
+.container .nav .Nav .nav_left li a:hover {
+  background-color: #0c8ed9;
+}
+
+.container .nav .Nav .nav_left li .first_page {
+  background-color: #0c8ed9;
+}
+
+.container .nav .Nav .nav_right {
+  width: 454.438px;
+  height: 55px;
+  float: right;
+  line-height: 55px;
+}
+
+.container .nav .Nav .nav_right li {
+  float: left;
+  margin-left: 28px;
+}
+
+.container .nav .Nav .nav_right li a {
+  font-size: 13px;
+  color: #bbb;
+  text-align: right;
+}
+
+.container .nav .Nav .nav_right li a:hover {
+  color: #0c8ed9;
+}
+
+.container .main {
+  width: 1000px;
+  height: 921.8px;
+  margin: 0 auto;
+}
+
+.container .main .lunbo {
+  width: 663px;
+  height: 325px;
+  margin-top: 20px;
+}
+
+.container .footer {
+  width: 100%;
+  height: 236.6px;
+  padding-bottom: 50px;
+  background: #2c323b;
+}
+
+.container .footer .links {
+  width: 100%;
+  height: 17.6px;
+  border-bottom: 1px solid #3d424a;
+  padding: 15px 0;
+  font-size: 12px;
+  color: #b1b3b9;
+  text-align: center;
+}
+
+.container .footer .links a {
+  display: inline-block;
+  color: #b1b3b9;
+  margin-right: 0;
+}
+
+.container .footer .links a::after {
+  content: "|";
+  margin: 0 10px;
+  color: #b1b3b9;
+  font-size: 12px;
+}
+
+.container .footer .links a:last-child::after {
+  content: "";
+  margin: 0;
+}
+
+.container .footer .message {
+  width: 1000px;
+  height: 148px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.container .footer .message p {
+  width: 1000px;
+  height: 29.6px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 13px;
+  color: #b1b3b9;
+}
+
+.container .footer .message p > a {
+  color: #999;
+}
+
+.container .footer .message p > a span {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  margin-top: 5px;
+  background: url("../../assets/images/footer_icon.png") no-repeat;
+}
+
+.container .footer .message .sine a {
+  padding: 5px 10px;
+  margin-left: 5px;
+  background: url("../../assets/images/logo_down.png") no-repeat;
+}
+
+.container .shadow {
+  position: absolute;
+  display: block;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 10;
+  height: 1360px;
+}
+
+.container .shadow .fangkuai {
+  width: 368px;
+  height: 316px;
+  padding: 30px 35px;
+  position: absolute;
+  top: 200px;
+  left: 541px;
+  position: fixed;
+  z-index: 20;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+.container .shadow .fangkuai a {
+  display: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 37px;
+  height: 37px;
+  line-height: 37px;
+  color: #7b7b7b;
+  text-align: center;
+}
+
+.container .shadow .fangkuai a span {
+  display: inline-block;
+  width: 14px;
+  height: 13px;
+  background: url(../../assets/images/kg_popup_splice01.png) no-repeat -175px -100px;
+}
+
+.container .shadow .fangkuai .dlkg {
+  width: 368px;
+  height: 22px;
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 22px;
+}
+
+.container .shadow .fangkuai .enput {
+  width: 368px;
+  height: 303px;
+}
+
+.container .shadow .fangkuai .enput .bai {
+  width: 368px;
+  height: 18px;
+  margin-bottom: 10px;
+}
+
+.container .shadow .fangkuai .enput .forme {
+  width: 368px;
+  height: 275px;
+}
+
+.container .shadow .fangkuai .enput .forme .shurukuang {
+  width: 368px;
+  height: 38px;
+  margin-bottom: 11px;
+  border: 1px solid #ccc;
+}
